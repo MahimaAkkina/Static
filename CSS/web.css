@@ -1,0 +1,191 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.head{
+    height:600px;
+    background:#3b5d50;
+    padding-top: 5px;
+}  
+.body{
+    color: #6a6a6a;
+    font-size: 14px;
+    font-family: Inter, sans-serif;
+    background-color: #eff2f1; 
+}
+.bar .heading{
+    font-size: 33px;
+    font-weight: 600;
+    margin-left: 100px;
+}
+.heading span{
+    opacity:0.4;
+}
+.head .navi li{
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.head .navi li a{
+    font-weight: 500;
+    font-size:15px;
+    text-decoration: none;
+    color: #fff;
+    opacity:0.5;
+    transition: 1s all ease;
+    position: relative;
+}
+.head .navi li a::before{
+    position: absolute;
+    content:" ";
+    bottom: 0;
+    left: 8px;
+    right: 8px;
+    background-color: #f9bf29;
+    height: 6px;
+    opacity: 0;
+    visibility: visible;
+    width:40px;
+    transition: 1s all ease-out;
+}
+.head .navi li a:hover{
+    opacity:1;
+    visibility:visible;
+}
+.head .navi li a:hover::before{
+    opacity: 1;
+    visibility:visible;
+}
+.hero{
+    height: 550px;
+    position: relative;
+}
+.tex{
+    margin-top:100px !important;
+}
+.but{
+    margin-left: 100px;
+    border-radius: 30px !important;
+    font-weight: bold !important;
+    padding: 12px 25px !important;
+}
+.but2{
+    border-radius: 30px !important;
+    font-weight: bold !important;
+    padding: 12px 25px !important;
+    color: white;
+    border: 1px solid white;
+    opacity: 0.5;
+}
+.but2:hover{
+    opacity: 1;
+    background-color: transparent !important;
+    color:white !important;
+}
+.pic{
+    position:absolute;
+    top:50px;
+    text-align: right;
+    background-size: 50px 50px !important;
+    z-index: 0;
+    
+}
+.po{
+    position: relative;
+    z-index: 2;
+}
+.prod-sec{
+    height: 500px;
+}
+.back:hover{
+    background-color: peachpuff;
+    transform: translate(0%, -20%);
+}
+.exp{
+    border-radius:30px !important;
+    padding:12px 25px !important;
+}
+.pics{
+    height: 300px;
+    width: 300px;
+}
+.why{
+    width:100%;
+    height: 700px;
+    position: relative;
+}
+.yell{
+    position: absolute;
+    top:100px;
+    left:800px;
+    z-index:-2;
+}
+.choose{
+    position: absolute;
+    top: 200px;
+    left:100px;
+}
+.cho{
+    position: relative;
+    z-index: 4;
+}
+.us{
+    height: 500px;
+    width:500px;
+    margin-left: 140px;
+    border-radius: 30px;
+}
+.feature p{
+    color: #6a6a6a;
+    font-size: 13px;
+}
+.help-sec{
+    position: relative;
+    height: 980px;
+    top: 80px;
+}
+.green{
+    position: absolute;
+    top:130px;
+}
+.spa{
+    position: relative;
+    top: 220px;
+}
+.grid{
+    position: relative;
+}
+.grids{
+    position: absolute;
+    width:470px;
+    height: 600px !important;
+    left:10px;
+    border-radius: 20px;
+}
+.grids2{
+    position: absolute;
+    width:230px;
+    height: 230px !important;
+    left:500px;
+    border-radius: 20px;
+}
+.grids3{
+    position: absolute;
+    width:370px;
+    left:350px;
+    top:240px;
+    border-radius: 20px;
+}
+.gap{
+    position: relative;
+    left:40px;
+}
+.product{
+    height: 350px;
+    position: relative;
+    top:130px;
+}
+.pro{
+    background-color: lightgray;
+    border-radius: 30px;
+    margin: 10px 15px;
+}
